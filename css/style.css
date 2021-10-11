@@ -17,7 +17,7 @@ ul {
 }
 
 header {
-    background-color: #F6F6F6;
+    background-color: #f0f0f0;
     box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
     height: 80px;
     position: fixed;
@@ -174,13 +174,13 @@ section.hero img {
     border: 1px solid #8896AB;
 }
 
-/* PRODUCT SECTION */
+/* LEGAL SERVICES */
 
-section.best-sellers {
+section.legal-services {
     padding-top: 80px;
 }
 
-section.best-sellers h2 {
+section.legal-services h2 {
     text-align: center;
     font-size: 34px;
     letter-spacing: 0.85px;
@@ -189,26 +189,35 @@ section.best-sellers h2 {
     margin: 0 0 14px 0;
 }
 
-section.best-sellers hr {
+section.legal-services p {
+    text-align: justify;
+    font-size: 15px;
+    letter-spacing: 0.30px;
+    line-height: 21px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+}
+
+section.legal-services hr {
     border: none;
-    border-top: 6px solid #67f11d;
+    border-top: 6px solid #D3B88C;
     width: 66px;
 }
 
-section.best-sellers .product-slider {
+section.legal-services .services-slider {
     margin-top: 76px;
 }
 
-section.best-sellers .container {
+section.legal-services .container {
     display: flex;
     justify-content: space-around;
     padding: 0 8px;
 }
 
-section.best-sellers .product-slider .product {
+section.legal-services .services-slider .service {
     border-radius: 8px;
     border: 1px solid #ddd;
-    width: 33%;
+    width: 25%;
     text-align: center;
     margin: 0 8px;
     padding: 40px;
@@ -216,94 +225,26 @@ section.best-sellers .product-slider .product {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    cursor: pointer;
 }
 
-section.best-sellers .product-slider .product img {
+section.legal-services .services-slider .service img {
     max-width: 100%;
 }
 
-section.best-sellers .product-slider .product.new::before {
-    content: "New";
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.35px;
-    line-height: 21px;
-    text-align: center;
-    padding: 4px 15px;
-    border-radius: 40px;
-    background-color: #ec1c1c;
+section.legal-services .services-slider .service .service-info {
+    margin-top: 30px;
 }
 
-section.best-sellers .product-slider .product  .product-info {
-    margin-top: 50px;
-}
 
-section.best-sellers .product-slider .product .product-info .categories {
-    color: #3e50e5;
-    font-weight: normal;
-    font-size: 14px;
-    letter-spacing: 0.35px;
-    line-height: 30px;
-    margin-bottom: 8px;
-    margin-top: 0;
-}
-
-section.best-sellers .product-slider .product .product-info .title {
-    font-size: 20px;
+section.legal-services .services-slider .service .service-info .title {
+    font-size: 30px;  /* RESOLVER ESSA PARTE */
     letter-spacing: 0.5px;
     line-height: 26px;
     margin-bottom: 6px;
-    font-weight: normal;
+    font-weight: bold;
     margin-top: 0;
 }
 
-section.best-sellers .product-slider .product .product-info .price {
-    font-size: 28px;
-    font-weight: bold;
-    letter-spacing: 0.7px;
-    line-height: 30px;
-    margin-bottom: 16px;
-    margin-top: 6.5px;
-}
-
-section.best-sellers .product-slider .product .product-info .price .discounted-price {
-    color: #ec1c1c;
-}
-
-section.best-sellers .product-slider .product .product-info .price .original-price {
-    color: #9b9b9b;
-    font-weight: normal;
-    font-size: 16px;
-    letter-spacing: 0.4px;
-    line-height: 30px;
-    text-decoration: line-through;
-}
-
-section.best-sellers .product-slider .product .product-info button {
-    height: 40px;
-    width: 219.5px;
-    border: 1px solid #000;
-    background-color: white;
-    border-radius: 220px;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 0.4px;
-    line-height: 24px;
-    cursor: pointer;
-}
-
-section.best-sellers .product-slider .product:hover .product-info button {
-    background-color: #3e50e5;
-    color: #fff;
-    border: 1px solid #3e50e5;
-    cursor: pointer;
-}
 
 /* NEWSLETTER SECTION */
 
