@@ -99,6 +99,30 @@ section.hero img {
     filter: blur(0.5px);
 }
 
+section.hero #slider {
+    width: 100%;
+    /* max-width: 500px; */
+    height: 40vw;
+    /* max-height: 150px; */
+
+    position: relative;
+}
+
+section.hero #slider img {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: opacity 800ms;
+}
+
+section.hero #slider img.selected {
+    opacity: 1;
+}
+
 .hero-content {
     position: absolute;
     top: 0;
@@ -216,7 +240,7 @@ section.legal-services .container {
 
 section.legal-services .services-slider .service {
     border-radius: 8px;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     width: 25%;
     text-align: center;
     margin: 0 8px;
@@ -237,12 +261,29 @@ section.legal-services .services-slider .service .service-info {
 
 
 section.legal-services .services-slider .service .service-info .title {
-    font-size: 30px;  /* RESOLVER ESSA PARTE */
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+section.legal-services .services-slider .service .service-info .title-long {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    margin-top: 0;
+
+}
+
+section.legal-services .services-slider .service .service-info .info {
     letter-spacing: 0.5px;
     line-height: 26px;
     margin-bottom: 6px;
-    font-weight: bold;
-    margin-top: 0;
+    font-weight: lighter;
 }
 
 
