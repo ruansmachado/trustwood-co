@@ -367,7 +367,7 @@ footer .bottom-nav {
 footer .bottom-nav .container {
     max-width: 955px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 footer .bottom-nav ul {
@@ -410,6 +410,145 @@ footer .copyright-text {
     letter-spacing: 0.4px;
     line-height: 22px;
 }
+
+
+/* ABOUT US*/
+
+section.about-us {
+    padding-top: 80px;
+}
+
+section.about-us h2 {
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 0.85px;
+    line-height: 42px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+}
+
+section.about-us p {
+    text-align: justify;
+    font-size: 15px;
+    letter-spacing: 0.30px;
+    line-height: 21px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+}
+
+section.about-us hr {
+    border: none;
+    border-top: 6px solid #D3B88C;
+    width: 66px;
+}
+
+
+section.about-us .container {
+    display: flex;
+    padding: 0 8px;
+}
+
+
+/* ABOUT US FIRST OFFICE PART */
+section.about-us .about-us-part .first-office-img {
+    border-radius: 8px;
+    /* border: 1px solid #ddd; */
+    width: 25%;
+    text-align: center;
+    margin: 0 8px;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.about-us .about-us-part .first-office-img img {
+    max-width: 100%;
+}
+
+section.about-us .about-us-part  .first-office-info {
+    border-radius: 8px;
+    /* border: 1px solid #ddd; */
+    width: 50%;
+    text-align: center;
+    margin: 0 8px;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section.about-us .about-us-part .first-office-info .title {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    line-height: 26px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+
+section.about-us .about-us-part  .first-office-info .info {
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin-bottom: 6px;
+    font-weight: lighter;
+}
+
+/* ABOUT US MONTREAL PART */
+
+/* RESOLVER DIMENSÃO DO CONTAINER */ 
+section.about-us .about-us-part .montreal-img {
+    border-radius: 8px;
+    /* border: 1px solid #ddd; */
+    width: 25%;
+    text-align: center;
+    margin: 0 8px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.about-us .about-us-part .montreal-img img {
+    max-width: 100%;
+}
+
+section.about-us .about-us-part  .montreal-info {
+    border-radius: 8px;
+    /* border: 1px solid #ddd; */
+    width: 50%;
+    text-align: center;
+    margin: 0 8px;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+section.about-us .about-us-part .montreal-info .title {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-align: right;
+    line-height: 26px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+
+section.about-us .about-us-part  .montreal-info .info {
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin-bottom: 6px;
+    font-weight: lighter;
+}
+
+
 
 /******************************************************
 ************** CSS MEDIA QUERIES **********************
