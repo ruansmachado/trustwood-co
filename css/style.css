@@ -500,7 +500,6 @@ section.about-us .about-us-part  .first-office-info .info {
 
 /* ABOUT US MONTREAL PART */
 
-/* RESOLVER DIMENSÃO DO CONTAINER */ 
 section.about-us .about-us-part .montreal-img {
     border-radius: 8px;
     /* border: 1px solid #ddd; */
@@ -508,6 +507,7 @@ section.about-us .about-us-part .montreal-img {
     text-align: center;
     margin: 0 8px;
     position: relative;
+    left: 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -524,6 +524,7 @@ section.about-us .about-us-part  .montreal-info {
     margin: 0 8px;
     padding: 40px;
     position: relative;
+    left: 100px;
     display: flex;
     flex-direction: column;
 
