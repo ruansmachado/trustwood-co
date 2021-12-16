@@ -1,3 +1,6 @@
+
+// CONTAINER SLIDER
+
 let time = 5000,
     currentImageIndex = 0,
     images = document.querySelectorAll("#slider img"),
@@ -14,7 +17,6 @@ function nextImage() {
     images[currentImageIndex].classList.add("selected")
 }
 
-
 function start() {
     setInterval(() => {
         nextImage()
@@ -22,3 +24,11 @@ function start() {
 }
 
 window.addEventListener("load", start)
+
+// ALERT PAGE UNDER CONSTRUCTION
+
+document.getElementById("on_click").onclick = function () {
+    window.setTimeout(function (){
+        alert("Page under construction");
+    },2000);
+}
