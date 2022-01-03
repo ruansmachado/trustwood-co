@@ -27,8 +27,14 @@ window.addEventListener("load", start)
 
 // ALERT PAGE UNDER CONSTRUCTION
 
-document.getElementById("on_click").onclick = function () {
+function click_alert() {
     window.setTimeout(function (){
-        alert("Page under construction");
+        Swal.fire({icon: 'error', text: 'Page under construction'})
     },2000);
+}
+
+// Submite Successful 
+
+function validation() {
+    Swal.fire('Saved!', 'Your email was saved!','success')
 }

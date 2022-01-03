@@ -11,6 +11,7 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="sweetalert2.min.css">
     </head>
 
     <body>
@@ -119,8 +120,15 @@
             <p>Subscribe now and don't miss a single deal</p>
             <form>
                 <input type="email" name="email" placeholder="Your email..." />
-                <button type="submit">Subscribe</button>
+                <button onclick="validation();">Subscribe</button>
             </form>
+            
+            <script type="text/javascript">
+                function validation() {
+                        Swal.fire('Good job!', 'Your email was saved!','success')
+                }
+            </script>
+
         </section>
 
         <footer>
@@ -151,6 +159,7 @@
             </div>
             <div class="copyright-text">2020 &copy; All Rights Reserved</div>
         </footer>
+        <script src="sweetalert2.min.js"></script>
         <script src="scripts.js"></script>
     </body>
 </html>

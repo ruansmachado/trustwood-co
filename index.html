@@ -11,6 +11,7 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/style.css" />
+        <!-- <link rel="stylesheet" href="sweetalert2.min.css"> -->
     </head>
 
     <body>
@@ -157,8 +158,9 @@
             <p>Subscribe now and don't miss a single deal</p>
             <form>
                 <input type="email" name="email" placeholder="Your email..." />
-                <button type="submit">Subscribe</button>
+                <button type='button' onclick="validation();">Subscribe</button>
             </form>
+            
         </section>
 
         <footer>
@@ -168,8 +170,8 @@
                         <li class="list-title">About Us</li>
                         <li><a href="about_us.html">Our Story</a></li>
                         <li><a href="about_us.html#about-us-section">Awards</a></li>
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a onclick="click_alert()" href="#bottom-nav">Press</a></li>
+                        <li><a onclick="click_alert()" href="#bottom-nav">Blog</a></li>
                     </ul>
                     <ul>
                         <li class="list-title">Social Media</li>
@@ -179,15 +181,17 @@
                         <li><a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a></li>                    </ul>
                     <ul>
                         <li class="list-title">Customer Service</li>
-                        <li><a href="#">Live Chat</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Delivery & Returns</a></li>
+                        <li><a onclick="click_alert()" href="#bottom-nav" >Live Chat</a></li>
+                        <li><a onclick="click_alert()" href="#bottom-nav">Contact Us</a></li>
+                        <li><a onclick="click_alert()" href="#bottom-nav">Terms & Conditions</a></li>
+                        <li><a onclick="click_alert()" href="#bottom-nav">Delivery & Returns</a></li>
                     </ul>
                 </div>
             </div>
             <div class="copyright-text">2020 &copy; All Rights Reserved</div>
         </footer>
+        <script src="sweetalert2.all.min.js"></script>
         <script src="scripts.js"></script>
+
     </body>
 </html>
