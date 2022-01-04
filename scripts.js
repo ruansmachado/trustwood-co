@@ -38,3 +38,7 @@ function click_alert() {
 function validation() {
     Swal.fire('Saved!', 'Your email was saved!','success')
 }
+
+// Copyright Year Dinamic
+
+document.getElementById("current_year").innerHTML = new Date().getFullYear();
