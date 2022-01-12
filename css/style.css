@@ -450,6 +450,7 @@ section.about-us .container {
   text-align: center;
   position: relative;
   margin-right: 10px;
+  margin-left: 100px;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -504,7 +505,7 @@ section.about-us .about-us-part .first-office-info .info {
   text-align: center;
   padding: 40px;
   position: relative;
-  left: 140px;
+  left: 200px;
   display: flex;
   flex-direction: column;
 }
