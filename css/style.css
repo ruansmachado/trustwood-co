@@ -491,10 +491,10 @@ section.about-us .about-us-part .first-office-info .info {
 
 /* ABOUT US MONTREAL PART */
 
-section.about-us .about-us-part .montreal-img {
-  border-radius: 8px;
+.montreal-img img {
   /* border: 1px solid #ddd; */
-  width: 25%;
+  width: 300px;
+  height: 400px;
   text-align: center;
   position: relative;
   margin-left: 200px;
@@ -502,11 +502,7 @@ section.about-us .about-us-part .montreal-img {
   justify-content: space-between;
 }
 
-section.about-us .about-us-part .montreal-img img {
-  max-width: 100%;
-}
-
-section.about-us .about-us-part .montreal-info {
+.montreal-info {
   border-radius: 8px;
   /* border: 1px solid #ddd; */
   width: 50%;
