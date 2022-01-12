@@ -443,33 +443,28 @@ section.about-us .container {
 }
 
 /* ABOUT US FIRST OFFICE PART */
-section.about-us .about-us-part .first-office-img {
-  border-radius: 8px;
+.first-office-img img {
   /* border: 1px solid #ddd; */
-  width: 25%;
+  width: 300px;
+  height: 400px;
   text-align: center;
-  margin: 0 8px;
-  padding: 40px;
   position: relative;
+  margin-right: 10px;
+  margin-top: 30px;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
 
-section.about-us .about-us-part .first-office-img img {
-  max-width: 100%;
-}
-
-section.about-us .about-us-part .first-office-info {
-  border-radius: 8px;
+.first-office-info {
   /* border: 1px solid #ddd; */
   width: 50%;
-  text-align: center;
-  margin: 0 8px;
+  text-align: auto;
+  margin: 0 0px;
   padding: 40px;
   position: relative;
   display: flex;
   flex-direction: column;
+  letter-spacing: 0.5px;
 }
 
 section.about-us .about-us-part .first-office-info .title {
@@ -507,7 +502,6 @@ section.about-us .about-us-part .first-office-info .info {
   /* border: 1px solid #ddd; */
   width: 50%;
   text-align: center;
-  margin: 0 8px;
   padding: 40px;
   position: relative;
   left: 140px;
