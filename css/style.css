@@ -4,13 +4,6 @@ body {
   padding-top: 70px;
 }
 
-.container {
-  width: 1180px;
-  max-width: 90%;
-  margin: auto;
-  padding: 0 16px;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -97,7 +90,6 @@ header nav ul li:last-of-type a {
   position: relative;
   width: 100%;
   height: 40vw;
-  position: relative;
 }
 
 .slider img {
@@ -188,6 +180,128 @@ header nav ul li:last-of-type a {
   border: 1px solid #8896ab;
 }
 
+/* ABOUT US*/
+
+.about-us {
+  padding-top: 80px;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 34px;
+  letter-spacing: 0.85px;
+  line-height: 42px;
+  font-weight: normal;
+  margin: 0 0 14px 0;
+}
+
+.about-us p {
+  text-align: justify;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  line-height: 21px;
+  font-weight: normal;
+  margin: 0 0 14px 0;
+}
+
+.about-us hr {
+  border: none;
+  border-top: 6px solid #d3b88c;
+  width: 66px;
+}
+
+.about-us .container-about {
+  display: flex;
+  padding: 0 8px;
+  width: 1180px;
+  max-width: 90%;
+  margin: auto;
+}
+
+/* ABOUT US FIRST OFFICE/AWARDS PART */
+.first-office-img img {
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 100px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-office-info {
+  /* border: 1px solid #ddd; */
+  width: 50%;
+  text-align: auto;
+  margin: 0 0px;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.5px;
+}
+
+.title-info {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 26px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+section.about-us .about-us-part .first-office-info .info {
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  margin-bottom: 6px;
+  font-weight: lighter;
+}
+
+/* ABOUT US MONTREAL PART */
+
+.montreal-img img {
+  /* border: 1px solid #ddd; */
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  position: relative;
+  margin-left: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.montreal-info {
+  border-radius: 8px;
+  /* border: 1px solid #ddd; */
+  width: 50%;
+  text-align: center;
+  padding: 40px;
+  position: relative;
+  left: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+section.about-us .about-us-part .montreal-info .title {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  text-align: right;
+  line-height: 26px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+section.about-us .about-us-part .montreal-info .info {
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  margin-bottom: 6px;
+  font-weight: lighter;
+}
+
 /* LEGAL SERVICES */
 
 section.legal-services {
@@ -222,10 +336,13 @@ section.legal-services .services-slider {
   margin-top: 76px;
 }
 
-section.legal-services .container {
+.container-slider {
   display: flex;
   justify-content: space-around;
   padding: 0 8px;
+  width: 1180px;
+  max-width: 90%;
+  margin: auto;
 }
 
 section.legal-services .services-slider .service {
@@ -352,11 +469,13 @@ footer .bottom-nav {
   background-color: #3e3e3e;
 }
 
-footer .bottom-nav .container {
+footer .bottom-nav .container-nav {
   width: 955px;
   max-width: 90%;
   display: flex;
   justify-content: space-evenly;
+  margin: auto;
+  padding: 0 16px;
 }
 
 footer .bottom-nav ul {
@@ -398,124 +517,4 @@ footer .copyright-text {
   font-size: 14px;
   letter-spacing: 0.35px;
   line-height: 22px;
-}
-
-/* ABOUT US*/
-
-section.about-us {
-  padding-top: 80px;
-}
-
-section.about-us h2 {
-  text-align: center;
-  font-size: 34px;
-  letter-spacing: 0.85px;
-  line-height: 42px;
-  font-weight: normal;
-  margin: 0 0 14px 0;
-}
-
-section.about-us p {
-  text-align: justify;
-  font-size: 15px;
-  letter-spacing: 0.3px;
-  line-height: 21px;
-  font-weight: normal;
-  margin: 0 0 14px 0;
-}
-
-section.about-us hr {
-  border: none;
-  border-top: 6px solid #d3b88c;
-  width: 66px;
-}
-
-section.about-us .container {
-  display: flex;
-  padding: 0 8px;
-}
-
-/* ABOUT US FIRST OFFICE PART */
-.first-office-img img {
-  /* border: 1px solid #ddd; */
-  width: 300px;
-  height: 400px;
-  text-align: center;
-  position: relative;
-  margin-right: 10px;
-  margin-left: 100px;
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.first-office-info {
-  /* border: 1px solid #ddd; */
-  width: 50%;
-  text-align: auto;
-  margin: 0 0px;
-  padding: 40px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  letter-spacing: 0.5px;
-}
-
-section.about-us .about-us-part .first-office-info .title {
-  font-size: 20px;
-  letter-spacing: 0.5px;
-  text-align: left;
-  line-height: 26px;
-  margin-bottom: 20px;
-  font-weight: normal;
-  margin-top: 0;
-}
-
-section.about-us .about-us-part .first-office-info .info {
-  letter-spacing: 0.5px;
-  line-height: 26px;
-  margin-bottom: 6px;
-  font-weight: lighter;
-}
-
-/* ABOUT US MONTREAL PART */
-
-.montreal-img img {
-  /* border: 1px solid #ddd; */
-  width: 300px;
-  height: 400px;
-  text-align: center;
-  position: relative;
-  margin-left: 200px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.montreal-info {
-  border-radius: 8px;
-  /* border: 1px solid #ddd; */
-  width: 50%;
-  text-align: center;
-  padding: 40px;
-  position: relative;
-  left: 200px;
-  display: flex;
-  flex-direction: column;
-}
-
-section.about-us .about-us-part .montreal-info .title {
-  font-size: 20px;
-  letter-spacing: 0.5px;
-  text-align: right;
-  line-height: 26px;
-  margin-bottom: 20px;
-  font-weight: normal;
-  margin-top: 0;
-}
-
-section.about-us .about-us-part .montreal-info .info {
-  letter-spacing: 0.5px;
-  line-height: 26px;
-  margin-bottom: 6px;
-  font-weight: lighter;
 }
