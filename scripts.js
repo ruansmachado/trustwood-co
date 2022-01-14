@@ -1,42 +1,40 @@
-
 // CONTAINER SLIDER
 
-let time = 5000,
-    currentImageIndex = 0,
-    images = document.querySelectorAll("#slider img"),
-    max = images.length;
+let time = 3000,
+  currentImageIndex = 0,
+  images = document.querySelectorAll(".slider img"),
+  max = images.length;
 
 function nextImage() {
-    images[currentImageIndex].classList.remove("selected")
+  images[currentImageIndex].classList.remove("selected");
 
-    currentImageIndex++
+  currentImageIndex++;
 
-    if(currentImageIndex >= max)
-        currentImageIndex = 0
+  if (currentImageIndex >= max) currentImageIndex = 0;
 
-    images[currentImageIndex].classList.add("selected")
+  images[currentImageIndex].classList.add("selected");
 }
 
 function start() {
-    setInterval(() => {
-        nextImage()
-    }, time)
+  setInterval(() => {
+    nextImage();
+  }, time);
 }
 
-window.addEventListener("load", start)
+window.addEventListener("load", start);
 
 // ALERT PAGE UNDER CONSTRUCTION
 
 function click_alert() {
-    window.setTimeout(function (){
-        Swal.fire({icon: 'error', text: 'Page under construction'})
-    },2000);
+  window.setTimeout(function () {
+    Swal.fire({ icon: "error", text: "Page under construction" });
+  }, 2000);
 }
 
-// Submite Successful 
+// Submite Successful
 
 function validation() {
-    Swal.fire('Saved!', 'Your email was saved!','success')
+  Swal.fire("Saved!", "Your email was saved!", "success");
 }
 
 // Copyright Year Dinamic
