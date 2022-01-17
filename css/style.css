@@ -19,6 +19,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 .container-head {
   display: flex;
   align-items: center;
@@ -283,11 +284,11 @@ header nav ul li:last-of-type a {
 
 /* LEGAL SERVICES */
 
-section.legal-services {
+.legal-services {
   padding-top: 80px;
 }
 
-section.legal-services h2 {
+.legal-services h2 {
   text-align: center;
   font-size: 34px;
   letter-spacing: 0.85px;
@@ -296,7 +297,7 @@ section.legal-services h2 {
   margin: 0 0 14px 0;
 }
 
-section.legal-services p {
+.legal-services p {
   text-align: justify;
   font-size: 15px;
   letter-spacing: 0.3px;
@@ -305,14 +306,17 @@ section.legal-services p {
   margin: 0 0 14px 0;
 }
 
-section.legal-services hr {
+.legal-services hr {
   border: none;
   border-top: 6px solid #d3b88c;
   width: 66px;
 }
 
-section.legal-services .services-slider {
+.legal-services .services-slider {
   margin-top: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container-slider {
@@ -324,7 +328,7 @@ section.legal-services .services-slider {
   margin: auto;
 }
 
-section.legal-services .services-slider .service {
+.service {
   border-radius: 8px;
   /* border: 1px solid #ddd; */
   width: 25%;
@@ -337,15 +341,15 @@ section.legal-services .services-slider .service {
   justify-content: space-between;
 }
 
-section.legal-services .services-slider .service img {
+.service img {
   max-width: 100%;
 }
 
-section.legal-services .services-slider .service .service-info {
+.service-info {
   margin-top: 30px;
 }
 
-section.legal-services .services-slider .service .service-info .title {
+.service-info .title {
   font-size: 30px;
   letter-spacing: 0.5px;
   line-height: 26px;
@@ -354,7 +358,7 @@ section.legal-services .services-slider .service .service-info .title {
   margin-top: 0;
 }
 
-section.legal-services .services-slider .service .service-info .title-long {
+.service-info .title-long {
   font-size: 24px;
   letter-spacing: 0.5px;
   line-height: 30px;
@@ -363,7 +367,7 @@ section.legal-services .services-slider .service .service-info .title-long {
   margin-top: 0;
 }
 
-section.legal-services .services-slider .service .service-info .info {
+.service-info .info {
   letter-spacing: 0.5px;
   line-height: 26px;
   margin-bottom: 6px;
@@ -372,7 +376,7 @@ section.legal-services .services-slider .service .service-info .info {
 
 /* NEWSLETTER SECTION */
 
-section.newsletter {
+.newsletter {
   background-color: rgba(200, 200, 200, 0.18);
   width: 881px;
   max-width: 100%; /* ?  */
@@ -381,7 +385,7 @@ section.newsletter {
   margin: 70px auto;
 }
 
-section.newsletter h3 {
+.newsletter h3 {
   font-size: 22px;
   letter-spacing: 0.55px;
   line-height: 42px;
@@ -390,7 +394,7 @@ section.newsletter h3 {
   margin-bottom: 10px;
 }
 
-section.newsletter p {
+.newsletter p {
   font-size: 14px;
   letter-spacing: 0.35px;
   line-height: 42px;
@@ -398,12 +402,12 @@ section.newsletter p {
   margin-bottom: 15px;
 }
 
-section.newsletter form {
+.newsletter form {
   display: flex;
   justify-content: center;
 }
 
-section.newsletter form input {
+.newsletter form input {
   height: 50px;
   width: 326px;
   max-width: 80%;
@@ -418,7 +422,7 @@ section.newsletter form input {
   padding-left: 22px;
 }
 
-section.newsletter form button {
+.newsletter form button {
   height: 50px;
   width: 145px;
   max-width: 20%;
@@ -434,7 +438,7 @@ section.newsletter form button {
   cursor: pointer;
 }
 
-section.newsletter form button:hover {
+.newsletter form button:hover {
   color: #3e50e5;
   border: 1px solid #3e50e5;
   background-color: #fff;
@@ -443,12 +447,12 @@ section.newsletter form button:hover {
 
 /* FOOTER SECTION */
 
-footer .bottom-nav {
+.bottom-nav {
   padding: 50px 0;
   background-color: #3e3e3e;
 }
 
-footer .bottom-nav .container-nav {
+.container-nav {
   width: 955px;
   max-width: 90%;
   display: flex;
@@ -457,11 +461,11 @@ footer .bottom-nav .container-nav {
   padding: 0 16px;
 }
 
-footer .bottom-nav ul {
+.bottom-nav ul {
   list-style: none;
 }
 
-footer .bottom-nav ul li a {
+.bottom-nav ul li a {
   color: white;
   font-size: 14px;
   letter-spacing: 0.35px;
@@ -472,11 +476,11 @@ footer .bottom-nav ul li a {
   display: block;
 }
 
-footer .bottom-nav ul li a:hover {
+.bottom-nav ul li a:hover {
   color: #3e50e5;
 }
 
-footer .bottom-nav ul li.list-title {
+.bottom-nav ul li.list-title {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -486,7 +490,7 @@ footer .bottom-nav ul li.list-title {
   color: white;
 }
 
-footer .copyright-text {
+.copyright-text {
   color: white;
   background-color: #2b2b2b;
   height: 50px;
