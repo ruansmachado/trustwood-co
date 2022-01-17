@@ -4,11 +4,6 @@ body {
   padding-top: 70px;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 header {
   background-color: #f0f0f0;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
@@ -20,6 +15,10 @@ header {
   z-index: 1;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
 .container-head {
   display: flex;
   align-items: center;
@@ -35,12 +34,12 @@ header {
   width: auto;
 }
 
-header .logo a {
+.logo a {
   text-decoration: none;
   color: black;
 }
 
-header .logo .blue-dot {
+.logo .brown-dot {
   background-color: #d3b88c;
   width: 10px;
   height: 10px;
@@ -58,7 +57,7 @@ header nav ul li {
   display: inline-block;
 }
 
-header nav ul li.menu-icon {
+/* header nav ul li.menu-icon {
   display: none;
 }
 
@@ -66,7 +65,7 @@ header nav ul li.menu-icon img {
   vertical-align: middle;
   width: 24px;
   height: auto;
-}
+} */
 
 header nav ul li a {
   color: #3e3e3e;
@@ -195,15 +194,6 @@ header nav ul li:last-of-type a {
   margin: 0 0 14px 0;
 }
 
-.about-us p {
-  text-align: justify;
-  font-size: 15px;
-  letter-spacing: 0.3px;
-  line-height: 21px;
-  font-weight: normal;
-  margin: 0 0 14px 0;
-}
-
 .about-us hr {
   border: none;
   border-top: 6px solid #d3b88c;
@@ -232,9 +222,7 @@ header nav ul li:last-of-type a {
 }
 
 .first-office-info {
-  /* border: 1px solid #ddd; */
   width: 50%;
-  text-align: auto;
   margin: 0 0px;
   padding: 40px;
   position: relative;
@@ -253,11 +241,14 @@ header nav ul li:last-of-type a {
   margin-top: 0;
 }
 
-section.about-us .about-us-part .first-office-info .info {
+.info-about {
   letter-spacing: 0.5px;
   line-height: 26px;
   margin-bottom: 6px;
   font-weight: lighter;
+  text-align: justify;
+  font-size: 15px;
+  margin: 0 0 14px 0;
 }
 
 /* ABOUT US MONTREAL PART */
@@ -285,21 +276,8 @@ section.about-us .about-us-part .first-office-info .info {
   flex-direction: column;
 }
 
-section.about-us .about-us-part .montreal-info .title {
-  font-size: 20px;
-  letter-spacing: 0.5px;
+.montreal-info .title-info {
   text-align: right;
-  line-height: 26px;
-  margin-bottom: 20px;
-  font-weight: normal;
-  margin-top: 0;
-}
-
-section.about-us .about-us-part .montreal-info .info {
-  letter-spacing: 0.5px;
-  line-height: 26px;
-  margin-bottom: 6px;
-  font-weight: lighter;
 }
 
 /* LEGAL SERVICES */
