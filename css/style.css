@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #f0f0f0;
+  background-color: #f2f2f2;
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.15);
   height: 70px;
   position: fixed;
@@ -39,13 +39,14 @@ ul {
   color: black;
 }
 
-.logo .brown-dot {
-  background-color: #d3b88c;
-  width: 10px;
-  height: 10px;
+.logo-img {
+  width: 20px;
+  height: 20px;
   display: inline-block;
   vertical-align: middle;
-  border-radius: 6px;
+  position: relative;
+  right: -1px;
+  bottom: 2px;
 }
 
 .menu-nav {
