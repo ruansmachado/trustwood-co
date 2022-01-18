@@ -202,7 +202,7 @@ header nav ul li:last-of-type a {
   width: 66px;
 }
 
-.about-us .container-about {
+.container-about {
   display: flex;
   padding: 0 8px;
   width: 1180px;
@@ -231,6 +231,7 @@ header nav ul li:last-of-type a {
   display: flex;
   flex-direction: column;
   letter-spacing: 0.5px;
+  /* right: 300px; */
 }
 
 .title-info {
@@ -253,6 +254,15 @@ header nav ul li:last-of-type a {
   margin: 0 0 14px 0;
 }
 
+/* .about-us-part {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  gap: 30px;
+  column-gap: 1fr;
+  row-gap: 1fr;
+} */
 /* ABOUT US MONTREAL PART */
 
 .montreal-img img {
