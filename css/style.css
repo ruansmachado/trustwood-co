@@ -253,16 +253,6 @@ header nav ul li:last-of-type a {
   font-size: 15px;
   margin: 0 0 14px 0;
 }
-
-/* .about-us-part {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-
-  gap: 30px;
-  column-gap: 1fr;
-  row-gap: 1fr;
-} */
 /* ABOUT US MONTREAL PART */
 
 .montreal-img img {
