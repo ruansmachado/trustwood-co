@@ -38,7 +38,7 @@ ul {
 
 .logo a {
   text-decoration: none;
-  color: black;
+  color: #343a40;
 }
 
 .logo-img {
@@ -71,7 +71,7 @@ header nav ul li.menu-icon img {
 } */
 
 header nav ul li a {
-  color: #3e3e3e;
+  color: #343a40;
   font-size: 15px;
   letter-spacing: 0.37px;
   margin-right: 24px;
@@ -79,7 +79,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #3e50e5;
+  color: rgb(82, 117, 98);
 }
 
 header nav ul li:last-of-type a {
@@ -99,7 +99,7 @@ header nav ul li:last-of-type a {
   opacity: 0;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 110%;
 
   object-fit: cover;
 
@@ -114,7 +114,6 @@ header nav ul li:last-of-type a {
   position: absolute;
   top: 150px;
   left: 200px;
-  z-index: 0;
 }
 
 .container-hero {
@@ -122,6 +121,7 @@ header nav ul li:last-of-type a {
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
 }
 
 .hero-content h1 {
@@ -177,15 +177,16 @@ header nav ul li:last-of-type a {
 }
 
 .hero-content button:hover {
-  color: black;
-  background-color: #e2e8c0;
-  border: 1px solid #8896ab;
+  color: #fff;
+  background-color: rgb(82, 117, 98);
+  border: 1px solid rgb(82, 117, 98);
 }
 
 /* ABOUT US*/
 
 .about-us {
-  padding-top: 80px;
+  padding-top: 150px;
+  color: #343a40;
 }
 
 .about-title {
@@ -211,18 +212,19 @@ header nav ul li:last-of-type a {
   margin: auto;
 }
 
-/* ABOUT US FIRST OFFICE/AWARDS PART */
-.first-office-img img {
+.container-about img {
   width: 300px;
   height: 400px;
   text-align: center;
   position: relative;
   margin-right: 10px;
-  margin-left: 100px;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
+  border-radius: 5px;
 }
+
+/* ABOUT US FIRST OFFICE/AWARDS PART */
 
 .first-office-info {
   width: 50%;
@@ -243,7 +245,6 @@ header nav ul li:last-of-type a {
   margin-bottom: 20px;
   font-weight: normal;
   margin-top: 0;
-  text-decoration: underline;
 }
 
 .info-about {
@@ -251,21 +252,13 @@ header nav ul li:last-of-type a {
   line-height: 26px;
   margin-bottom: 6px;
   font-weight: lighter;
-  text-align: justify;
   font-size: 15px;
   margin: 0 0 14px 0;
 }
 /* ABOUT US MONTREAL PART */
 
 .montreal-img img {
-  /* border: 1px solid #ddd; */
-  width: 300px;
-  height: 400px;
-  text-align: center;
-  position: relative;
   margin-left: 200px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .montreal-info {
@@ -288,22 +281,14 @@ header nav ul li:last-of-type a {
 
 .legal-services {
   padding-top: 80px;
+  color: #343a40;
 }
 
-.legal-services h2 {
+.legal-services-h2 {
   text-align: center;
-  font-size: 34px;
-  letter-spacing: 0.85px;
   line-height: 42px;
-  font-weight: normal;
-  margin: 0 0 14px 0;
-}
-
-.legal-services p {
-  text-align: justify;
-  font-size: 15px;
-  letter-spacing: 0.3px;
-  line-height: 21px;
+  font-size: 34px;
+  letter-spacing: -0.5px;
   font-weight: normal;
   margin: 0 0 14px 0;
 }
@@ -314,50 +299,37 @@ header nav ul li:last-of-type a {
   width: 66px;
 }
 
-.legal-services .services-slider {
-  margin-top: 76px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.container-service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+  width: 960px;
+  margin: 48px auto;
 }
 
-.container-slider {
-  display: flex;
-  justify-content: space-around;
-  padding: 0 8px;
-  width: 1180px;
-  max-width: 90%;
-  margin: auto;
+.container-service-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  width: 800px;
+  margin: 48px auto;
 }
 
-.service {
-  border-radius: 8px;
-  /* border: 1px solid #ddd; */
-  width: 25%;
-  text-align: center;
-  margin: 0 8px;
-  padding: 40px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.service img {
-  max-width: 100%;
-}
-
-.service-info {
-  margin-top: 30px;
+.service-picture {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+  stroke: #087f5b;
 }
 
 .service-info .title {
-  font-size: 30px;
+  font-size: 20px;
   letter-spacing: 0.5px;
   line-height: 26px;
-  margin-bottom: 20px;
-  font-weight: normal;
+  margin-bottom: 16px;
   margin-top: 0;
+  color: #343a40;
+  text-align: left;
 }
 
 .service-info .title-long {
@@ -370,6 +342,7 @@ header nav ul li:last-of-type a {
 }
 
 .service-info .info {
+  font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 26px;
   margin-bottom: 6px;
@@ -380,12 +353,14 @@ header nav ul li:last-of-type a {
 
 .newsletter {
   background-color: rgba(200, 200, 200, 0.18);
+  color: #343a40;
   width: 881px;
   max-width: 100%; /* ?  */
   text-align: center;
   padding: 50px 0;
   margin: 70px auto;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .newsletter h3 {
@@ -431,8 +406,8 @@ header nav ul li:last-of-type a {
   max-width: 20%;
   box-sizing: border-box;
   border-radius: 0 60px 60px 0;
-  background-color: #3e50e5;
-  border: 1px solid #3e50e5;
+  background-color: #4e6e5d;
+  border: 1px solid #4e6e5d;
   color: #fff;
   font-size: 12px;
   letter-spacing: 0.3px;
@@ -442,10 +417,9 @@ header nav ul li:last-of-type a {
 }
 
 .newsletter form button:hover {
-  color: #3e50e5;
-  border: 1px solid #3e50e5;
-  background-color: #fff;
-  border: 1px solid #3e3e3e;
+  color: #fff;
+  border: 1px solid rgb(82, 117, 98);
+  background-color: rgb(82, 117, 98);
 }
 
 /* FOOTER SECTION */
